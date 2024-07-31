@@ -32,11 +32,13 @@ const styles = StyleSheet.create({
 
     },
     inputLabel:{
+
         fontSize:20,
         backgroundColor:"#dcdcdc",
-        width:"60%",
+        width:"70%",
         padding:5,
         paddingHorizontal:10,
+        marginTop:10,
         marginLeft: 20,
         borderRadius:20,
     },
@@ -45,6 +47,7 @@ const styles = StyleSheet.create({
         alignItems:"center",
         justifyContent:"center",
         marginTop:20,
+        marginLeft:0,
     },
     boxButton:{
         backgroundColor:"#b38941",
@@ -59,6 +62,7 @@ const styles = StyleSheet.create({
         color:"white",
         fontWeight:"bold",
     },
-
+    
+    
 });
 export default styles;

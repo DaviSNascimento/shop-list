@@ -9,7 +9,6 @@ export default function App() {
     <View style={styles.container}>
       <Title/>
       <Form/>
-      <ResultForm/>
     </View>
   );
 }
